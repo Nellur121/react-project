@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 75px;
+    background: black;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+}
+#nav>article {
+    height: 75px;
+    width: 150%;
+    display: flex;
+}
+#nav>article>.Logo {
+    height: 75px;
+    width: 30%;
+    display: flex;
+}
+#nav>article>.Menu {
+    height: 75px;
+    width: 90%;
+}
+
+#MenuBlock {
+    height: 75;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    float: right;
+
+}
+
+#MenuBlock>li> a{
+    text-decoration: none;
+    display: flex;
+    /* background: black; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    font-weight: bolder;
+    font-size: 12px;
+    width: 50%;
+    padding: 25px;
+}
+#main {
+    height: 10%;
+    width: 60%;
+    text-align: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-top: 30%;
+    display: flex;
+    margin-right: 10%;
+}
+#input {
+width: 60%;
+background-color: gray;
+}
+#button>a {
+    padding: 10%;
+    border: 1px solod blue;
+}
+#sss {
+    width: 80%;
+    display: flex;
+    
+}
+#aaa {
+    display: flex;
+    height: fit-content;
+    width: 50%;
+    height: 20%px;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    /* margin-right: 10%; */
+}
+
+#ccc {
+    width: 90%;
+    background-color: rgba(151, 15, 67, 0.857);
+    
+}
+#mm {
+    width: 10%;
+}
+#LogoBlock {
+    height: 70px;
+    width: 10%;
+
+}
+ #ppp {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+ }
+ #bbb{
+    justify-content: center;
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    
+    margin-right: 30%;
+ }
+ #a1 {
+    border: 1px solid black;
+    color: brown;
+    /* background-color: yellow; */
+    padding: 3%;
+    border-radius: 10%;
+    box-shadow: 10px 10px gray;
+ }
+ #a2 {
+    border: 1px solid black;
+    color: brown;
+    /* background-color: violet; */
+    padding: 2%;
+    border-radius: 10%;
+    box-shadow: 10px 10px gray;
+ }
+ #a3 {
+    border: 1px solid black;
+    color: brown;
+    padding: 3%;
+    border-radius: 10%;
+    box-shadow: 10px 10px gray;
+ }
+ #a4 {
+    border: 1px solid black;
+    color: brown;
+    padding: 4%;
+    border-radius: 10%;
+    box-shadow: 10px 10px gray;
+ }
+ #a5 {
+    border: 1px solid black;
+    color: brown;
+    padding: 3%;
+    border-radius: 10%;
+    box-shadow: 10px 10px gray;
+ }
+  
+ #fff {
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 5%;
+ }
+
+
+
+
+
